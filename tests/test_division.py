@@ -10,6 +10,6 @@ def test_division():
     pass
 
 def test_divide_zero_exception():
-    assert div(2,0)
     with pytest.raises(ZeroDivisionError):
+        assert div(2, 0)
         pass
